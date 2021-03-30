@@ -1,5 +1,5 @@
 <p align="center">
-    <img src="https://banners.beyondco.de/Blade%20Simple%20Icons.png?theme=light&packageManager=composer+require&packageName=codeat3%2Fblade-weather-icons&pattern=architect&style=style_1&description=A+package+to+use+Simple+Icons+in+your+Laravel+Blade+views&md=1&showWatermark=1&fontSize=100px&images=https%3A%2F%2Flaravel.com%2Fimg%2Flogomark.min.svg" width="1280" title="Social Card Blade Weather Icons">
+    <img src="https://banners.beyondco.de/Blade%20Weather%20Icons.png?theme=light&packageManager=composer+require&packageName=codeat3%2Fblade-weather-icons&pattern=architect&style=style_1&description=A+package+to+use+Weather+Icons+in+your+Laravel+Blade+views&md=1&showWatermark=1&fontSize=100px&images=https%3A%2F%2Flaravel.com%2Fimg%2Flogomark.min.svg" width="1280" title="Social Card Blade Weather Icons">
 </p>
 
 # Blade Weather Icons
