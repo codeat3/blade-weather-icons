@@ -1,7 +1,7 @@
 {
     "name": "codeat3/blade-weather-icons",
     "description": "A package to easily make use of Weather Icons in your Laravel Blade views.",
-    "keywords": ["Blade", "simpleicons", "Laravel"],
+    "keywords": ["Blade", "weather-icons", "Laravel"],
     "homepage": "https://github.com/codeat3/blade-weather-icons",
     "license": "MIT",
     "authors": [
@@ -22,6 +22,7 @@
     "require-dev": {
         "orchestra/testbench": "^6.0",
         "phpunit/phpunit": "^9.0",
+        "renatomarinho/laravel-page-speed": "^2.0",
         "symfony/finder": "^5.2"
     },
     "autoload": {

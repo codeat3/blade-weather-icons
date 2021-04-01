@@ -28,8 +28,8 @@ for ICON_DIR in $SOURCE/svg/*; do
     # echo $ICON_NAME
 
     CP_COMMAND='cp '$ICON_DIR' '$RESOURCES/$ICON_NAME
-    # echo $CP_COMMAND
-    $CP_COMMAND
+    echo $CP_COMMAND
+    # $CP_COMMAND
     # exit
 
 done
