@@ -32,7 +32,7 @@ final class BladeWeatherIconsServiceProvider extends ServiceProvider
         if ($this->app->runningInConsole()) {
             $this->publishes([
                 __DIR__.'/../resources/svg' => public_path('vendor/blade-weather-icons'),
-            ], 'blade-weather-icons');
+            ], 'blade-wi'); // TODO: rename this alias to `blade-weather-icons` in next major release
 
             $this->publishes([
                 __DIR__.'/../config/blade-weather-icons.php' => $this->app->configPath('blade-weather-icons.php'),

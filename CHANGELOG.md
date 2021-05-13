@@ -2,6 +2,9 @@
 
 This changelog follows [the Keep a Changelog standard](https://keepachangelog.com).
 
+## 1.2.1 (2021-05-14)
+typo fix for the alias used to publish icons
+
 ## 1.2.0 (2021-05-12)
 Added support for config file
 
