@@ -19,7 +19,6 @@ final class BladeWeatherIconsServiceProvider extends ServiceProvider
 
             $factory->add('weather-icons', array_merge(['path' => __DIR__.'/../resources/svg'], $config));
         });
-
     }
 
     private function registerConfig(): void
@@ -39,5 +38,4 @@ final class BladeWeatherIconsServiceProvider extends ServiceProvider
             ], 'blade-weather-icons-config');
         }
     }
-
 }
