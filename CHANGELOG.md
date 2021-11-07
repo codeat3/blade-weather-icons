@@ -2,6 +2,8 @@
 
 This changelog follows [the Keep a Changelog standard](https://keepachangelog.com).
 
+## [Unreleased](https://github.com/codeat3/blade-weather-icons/compare/1.2.1...main)
+
 ## 1.2.1 (2021-05-14)
 typo fix for the alias used to publish icons
 
