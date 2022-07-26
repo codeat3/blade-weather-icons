@@ -17,24 +17,24 @@ final class BladeWeatherIconsServiceProvider extends ServiceProvider
         $this->callAfterResolving(Factory::class, function (Factory $factory, Container $container) {
             $config = $container->make('config')->get('blade-weather-icons', []);
 
-            $factory->add('weather-icons', array_merge(['path' => __DIR__.'/../resources/svg'], $config));
+            $factory->add('weather-icons', array_merge(['path' => __DIR__ . '/../resources/svg'], $config));
         });
     }
 
     private function registerConfig(): void
     {
-        $this->mergeConfigFrom(__DIR__.'/../config/blade-weather-icons.php', 'blade-weather-icons');
+        $this->mergeConfigFrom(__DIR__ . '/../config/blade-weather-icons.php', 'blade-weather-icons');
     }
 
     public function boot(): void
     {
         if ($this->app->runningInConsole()) {
             $this->publishes([
-                __DIR__.'/../resources/svg' => public_path('vendor/blade-weather-icons'),
+                __DIR__ . '/../resources/svg' => public_path('vendor/blade-weather-icons'),
             ], 'blade-wi'); // TODO: rename this alias to `blade-weather-icons` in next major release
 
             $this->publishes([
-                __DIR__.'/../config/blade-weather-icons.php' => $this->app->configPath('blade-weather-icons.php'),
+                __DIR__ . '/../config/blade-weather-icons.php' => $this->app->configPath('blade-weather-icons.php'),
             ], 'blade-weather-icons-config');
         }
     }
